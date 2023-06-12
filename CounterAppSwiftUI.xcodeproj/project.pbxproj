@@ -11,6 +11,7 @@
 		EDDD4A272A370A2000CE18A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD4A262A370A2000CE18A3 /* ContentView.swift */; };
 		EDDD4A292A370A2100CE18A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD4A282A370A2100CE18A3 /* Assets.xcassets */; };
 		EDDD4A2C2A370A2100CE18A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDD4A2B2A370A2100CE18A3 /* Preview Assets.xcassets */; };
+		EDDD4A362A370CA000CE18A3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDD4A352A370CA000CE18A3 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EDDD4A262A370A2000CE18A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDDD4A282A370A2100CE18A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDD4A2B2A370A2100CE18A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDDD4A352A370CA000CE18A3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		EDDD4A232A370A2000CE18A3 /* CounterAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EDDD4A322A370C4C00CE18A3 /* View */,
 				EDDD4A242A370A2000CE18A3 /* CounterAppSwiftUIApp.swift */,
-				EDDD4A262A370A2000CE18A3 /* ContentView.swift */,
 				EDDD4A282A370A2100CE18A3 /* Assets.xcassets */,
 				EDDD4A2A2A370A2100CE18A3 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				EDDD4A2B2A370A2100CE18A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDDD4A322A370C4C00CE18A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD4A262A370A2000CE18A3 /* ContentView.swift */,
+				EDDD4A352A370CA000CE18A3 /* ButtonView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				EDDD4A272A370A2000CE18A3 /* ContentView.swift in Sources */,
 				EDDD4A252A370A2000CE18A3 /* CounterAppSwiftUIApp.swift in Sources */,
+				EDDD4A362A370CA000CE18A3 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
